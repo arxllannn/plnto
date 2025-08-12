@@ -1,0 +1,182 @@
+/* sidebar */
+
+
+
+@media screen and (max-width: 768px) {
+    .aside-menu .menu-nav {
+        margin: 35px 0 0 0 !important;
+    }
+}
+
+.aside {
+    transition: width 0.3s ease;
+    overflow: hidden;
+}
+
+.menu-text {
+    white-space: nowrap;
+}
+
+.collapsed .menu-text {
+    display: none;
+}
+
+.min-height-80 {
+    min-height: 80vh;
+}
+
+.aside-menu .menu-nav>.menu-item>.menu-link {
+    padding: 9px 20px !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+
+.font-5 {
+    font-size: 5px !important;
+}
+
+.menu-subnav .menu-item a {
+    padding: 9px 25px !important;
+    color: #a2a3b7;
+}
+.text-grey-500 {
+    color: #a2a3b7 !important;
+}
+
+
+/* loader */
+
+.application-loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #eef0f8;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.application-custom-loader {
+    width: 30px !important;
+    height: 30px !important;
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Simple spinning animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* paddings */
+
+.pe-10 {
+    padding-right: 10px !important;
+}
+
+.py-10 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.py-20 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.py-30 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+
+/* register user */
+
+
+.user-register .avatar-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.user-register .user-avatar {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 0.375rem;
+}
+
+.user-register .remove-avatar-btn {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    line-height: 1;
+    z-index: 1;
+    font-size: 14px;
+}
+
+
+
+/* create product */
+
+
+.create-product .product-image-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.create-product .product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.375rem;
+    border: 1px solid #ccc;
+}
+
+.create-product .remove-image-btn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+
