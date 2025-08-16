@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b2fe7fe.css",
+    "main.js": "/static/js/main.64e850f7.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/bottlehero.png": "/static/media/bottlehero.4b2b623548840c8c394d.png",
+    "static/media/bottle-image2.png": "/static/media/bottle-image2.0d33265e3a2b1cc217ef.png",
+    "index.html": "/index.html",
+    "main.7b2fe7fe.css.map": "/static/css/main.7b2fe7fe.css.map",
+    "main.64e850f7.js.map": "/static/js/main.64e850f7.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b2fe7fe.css",
+    "static/js/main.64e850f7.js"
+  ]
+}
